@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-color: #F8E8C5;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin: 0 10%;
+
+}
+h3{
+	color:#FF7905;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	border-bottom: thin solid #78ADD2;
+	padding-bottom: 20px;
+	
+}
+
+p{
+	color:#000000;
+}
+
+em {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 1.2em;
+}
