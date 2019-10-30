@@ -55,10 +55,10 @@ table {
 
 body {
 	font-size:0.8em;
-	background-color: #E5D9BB;
+	background-color: #FBFCE0;
 }
 #wrapper {
-	background-color: #FFECCD;
+	background-color: #D6FDEA;
 	width: 900px;
 	float: left;
 	margin: 20px 0 0 50px;
@@ -70,6 +70,7 @@ body {
 	float: left;
 	margin-right: 20px;
 	margin-left: 5px;
+	margin-bottom: 5px;
 	-moz-column-count: 2;
   	-moz-column-gap: 1em;
   	-webkit-column-count: 2;
@@ -77,6 +78,9 @@ body {
   	column-count: 2;
   	column-gap: 1em;
 
+}
+#weekly h2{
+	color: black;
 }
 
 #projects {
@@ -98,26 +102,31 @@ p, h1, h2, h3, h4, dd, dt, dl{
 h1 {
 	margin-top: 10px;
 	font-size: 32px;
-	font-weight: lighter;
-	color:#A391FF;
+	font-weight: bold;
+	color:#67BAFF;
 }
 
 h2 {
 	font-size: 24px;
-	font-weight: lighter;
-	color: #A391FF;
+	font-weight: normal;
+	color:#67BAFF;
 	padding-top: 15px;
 }
 
 h3 {
-	font-size: 14px;
-	font-weight: normal;
+	font-size: 18px;
+	font-weight: bold;
 	margin-top: 20px;
+}
+h4{
+	margin-top: 8px;
+	color:#67BAFF;
+	font-weight:normal;
 }
 
 dt {
 	font-size: 1em;
-	font-weight: normal;
+	font-weight: bolder;
 	color:#0058AE;
 	margin-left: 18px;
 	margin-top: 8px;
@@ -158,4 +167,3 @@ a:hover {
 a:visited {
 	color: #8E8383;
 }
-
