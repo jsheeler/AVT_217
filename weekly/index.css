@@ -54,9 +54,11 @@ table {
 
 
 body {
-	font-size:0.8em
+	font-size:0.8em;
+	background-color: #E5D9BB;
 }
 #wrapper {
+	background-color: #FFECCD;
 	width: 900px;
 	float: left;
 	margin: 20px 0 0 50px;
@@ -67,6 +69,7 @@ body {
 	width: 500px;
 	float: left;
 	margin-right: 20px;
+	margin-left: 5px;
 	-moz-column-count: 2;
   	-moz-column-gap: 1em;
   	-webkit-column-count: 2;
@@ -89,9 +92,11 @@ p, h1, h2, h3, h4, dd, dt, dl{
 	padding-bottom: 0px;
 	margin-top: 0px;
 	padding-top: 0px;
+	margin-left: 20px;
 }
 
 h1 {
+	margin-top: 10px;
 	font-size: 32px;
 	font-weight: lighter;
 	color:#A391FF;
@@ -145,10 +150,12 @@ a:link {
 
 a:hover {
 	color:#6366FF;
+	font-size: 18px;
+	
 	text-decoration:underline;
 }
 
 a:visited {
 	color: #8E8383;
-	text-decoration: none;	
 }
+
