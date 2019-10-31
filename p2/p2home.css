@@ -1,0 +1,347 @@
+@charset "UTF-8";
+/* CSS Document */
+.acc {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/*.active, .accordion:hover {
+  background-color: #BF1215;
+}*/
+
+/* Style the accordion panel. Note: hidden by default */
+
+
+body{
+	
+	width:1024px;
+}
+#wrapper{
+	background-color: #f8ee81;
+}
+header{
+	background-image: url("Project2.png");
+	height: 120px;
+}
+#title h1{
+	padding-top: 30px;
+	margin-left: 330px;
+	font-size: 54px;
+	color: black;
+}
+nav{
+	background-color: #383838;
+	height: 50px;
+	border-style: solid none solid none;
+	border-width: 5px;
+	border-color: #fffefe;
+}
+.navi li{
+	list-style-type: none;
+	margin-left: 100px;
+	margin-top: 0px;
+    padding: 0;
+	display: inline;
+	float:left;
+	color: #fffefe;
+	font-size: 24px;
+}
+.navi li:first-child{
+	margin-left: 50px;
+}
+
+
+
+/*Burger Accordian*/
+
+#burgers{
+	margin-top: 50px;
+	margin-left: 100px;
+	height: 570px;
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+img{
+	width: 900px;
+	height: 570px;
+}
+.accordian{
+	float:left;
+	position: relative;
+	
+}
+		
+.overlay{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 800px;
+	height:100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(120,110,110,.50)
+}
+		
+.accordian:hover .overlay{
+	opacity: 1;
+}
+
+
+.image {
+			display:block;
+			width:800px;
+		}
+.text{
+	margin-top: 200px;
+	margin-left: 240px;
+	padding: 60px;
+	font-size: 64px;
+	color:white;
+}
+
+/*Hotdog Accordian*/
+#dogs{
+	margin-top: 50px;
+	margin-left: 100px;
+	height:570px;
+}
+.panel2 {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+	position: relative;
+
+}
+.accordian2{
+	float:left;
+	position: relative;
+	
+}
+.accordian2 img{
+
+}
+		
+.overlay2{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 800px;
+	height:100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(120,110,110,.50)
+}
+		
+.accordian2:hover .overlay{
+	opacity: 1;
+}
+
+
+.image2 {
+			display:block;
+			width:800px;
+		}
+.text2{
+	margin-top: 200px;
+	margin-left: 230px;
+	padding: 60px;
+	font-size: 64px;
+	color:white;
+}
+
+
+#sandwich{
+	margin-top: 50px;
+	margin-left: 100px;
+	height:570px;
+}
+.panel3 {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+	position: relative;
+
+}
+.accordian3{
+	float:left;
+	position: relative;
+	
+}
+.accordian3 img{
+
+}
+		
+.overlay3{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 800px;
+	height:100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(120,110,110,.50)
+}
+		
+.accordian3:hover .overlay{
+	opacity: 1;
+}
+.image3 {
+			display:block;
+			width:800px;
+		}
+.text3{
+	margin-top: 200px;
+	margin-left: 200px;
+	padding: 60px;
+	font-size: 64px;
+	color:white;
+}
+
+
+#fries{
+	margin-top: 50px;
+	margin-left: 100px;
+	height:570px;
+}
+.panel4 {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+	position: relative;
+
+}
+.accordian4{
+	float:left;
+	position: relative;
+	
+}
+.accordian4 img{
+
+}
+		
+.overlay4{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 800px;
+	height:100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(120,110,110,.50)
+}
+		
+.accordian4:hover .overlay{
+	opacity: 1;
+}
+.image4 {
+			display:block;
+			width:800px;
+		}
+.text4{
+	margin-top: 200px;
+	margin-left: 270px;
+	padding: 60px;
+	font-size: 64px;
+	color:white;
+}
+
+
+#toppings{
+	margin-top: 50px;
+	margin-left: 100px;
+	height:570px;
+	margin-bottom: 20px;
+}
+.panel5 {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+position: relative;
+
+}
+.accordian5{
+	float:left;
+	position: relative;
+	
+}
+.accordian5 img{
+
+}
+		
+.overlay5{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 800px;
+	height:100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(120,110,110,.50)
+}
+		
+.accordian5:hover .overlay{
+	opacity: 1;
+}
+.image5 {
+			display:block;
+			width:800px;
+		}
+.text5{
+	margin-top: 200px;
+	margin-left: 210px;
+	padding: 60px;
+	font-size: 64px;
+	color:white;
+}
+
+
+
+
+#dogs #ac2 .accordian2 #foot{
+	width: 1024px;
+}
+#foot{
+	border-style: solid none solid none;
+	border-width: 5px;
+	border-color: #fffefe;
+	padding: 0px;
+	color:white;
+	height: 138px;
+	background-color: #383838;
+
+}
+#foot p{
+	margin-left: 100px;
+	padding-top: 5px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	height: 134px;	
+}
+h1{
+	color: white;
+}

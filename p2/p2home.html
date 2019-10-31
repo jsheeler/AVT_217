@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home Menu</title>
+<link rel="stylesheet" href="p2home.css">
+<style>		
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+	
+  <header>
+		<div id = "title">
+			<h1>Rays Hell Burgers</h1>
+		</div>
+	</header>
+	
+	<nav>
+		<ul class="navi">
+			<li>Burgers</li>
+			<li>Dogs</li>
+			<li>Sandwich</li>
+			<li>Fries</li>
+			<li>Toppings</li>
+		</ul>
+	</nav>
+	
+<div id="burgers">	
+	<div id = "ac">
+		<div class="accordian"><img src="burger.jpg" alt="Burger Menu" class="image">
+			<div class="overlay">
+				<div class="text">
+					Burgers
+				</div>
+			</div>
+	  	</div> 
+			<div class="panel">
+				<p>Click here to see our burger menu!</p>
+			</div>
+	</div>
+</div>	
+	
+	
+<div id="dogs">
+	<div id = "ac2">
+		<div class="accordian2"><img src="dogs.jpg" alt="Burger Menu" class="image2">
+			<div class="overlay">
+				<div class="text2">
+					Hotdogs
+				</div>
+			</div>
+
+	  	</div> 
+			<div class="panel2">
+				<p>Click here to see our hotdog menu!</p>
+			</div>
+	</div>	
+	
+</div>	
+	
+
+<div id="sandwich">
+	<div id = "ac3">
+		<div class="accordian3"><img src="sandwich.png" alt="Burger Menu" class="image3">
+			<div class="overlay">
+				<div class="text3">
+					Sandwiches
+				</div>
+			</div>
+
+	  	</div> 
+			<div class="panel3">
+				<p>Click here to see our sandwiches menu!</p>
+			</div>
+	</div>	
+</div>
+	
+<div id="fries">
+	<div id = "ac4">
+		<div class="accordian4"><img src="fries.jpg" alt="Burger Menu" class="image4">
+			<div class="overlay">
+				<div class="text4">
+					Fries
+				</div>
+			</div>
+
+	  	</div> 
+			<div class="panel4">
+				<p>Click here to see our fries menu!</p>
+			</div>
+	</div>	
+</div>	
+	
+<div id="toppings">
+	<div id = "ac5">
+		<div class="accordian5"><img src="salad.jpg" alt="Burger Menu" class="image5">
+			<div class="overlay">
+				<div class="text5">
+					Toppings
+				</div>
+			</div>
+
+	  	</div> 
+			<div class="panel5">
+				<p>Click here to see our toppings menu!</p>
+			</div>
+	</div>	
+</div>		
+	
+				<div id = "foot">
+					<p>Location: 1234 Wilson Boulevard, Arlington, VA<br>
+					Hours of Operation: Daily From 11:00 am Until 10:00 pm<br>
+					Reservation: For reservations call 01 223 367 4800</p>
+				</div>	
+	
+	
+<script>
+var acc = document.getElementsByClassName("accordian");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>	
+	
+<script>
+var acc = document.getElementsByClassName("accordian2");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+	
+<script>
+var acc = document.getElementsByClassName("accordian3");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>	
+	
+<script>
+var acc = document.getElementsByClassName("accordian4");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+	
+<script>
+var acc = document.getElementsByClassName("accordian5");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>			
+	
+</div>		
+</body>
+</html>

@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+#wrapper{
+	width:1024px;
+}
+header{
+	background-image: url("Project2.png");
+	height: 120px;
+}
+nav{
+	background-color: #383838;
+	height: 50px;
+	border-style: solid none solid none;
+	border-width: 5px;
+	border-color: #fffefe;
+}
+.navi li{
+	list-style-type: none;
+	margin-left: 100px;
+	margin-top: 13px;
+    padding: 0;
+	display: inline;
+	float:left;
+	color: #fffefe;
+	font-size: 24px;
+}
+.navi li:first-child{
+	margin-left: 120px;
+}
+body{
+	width: 1024px;
+}
+#title h1{
+	padding-top: 30px;
+	margin-left: 330px;
+	font-size: 54px;
+	color: black;
+}
+#bmenu{
+	width: 815px;
+	background-color: #383838;
+	color: white;
+	margin-left: 15px;
+}
+#bmenu li{
+	padding: 5px;
+}
+#burger{
+	width: 830px;
+	background-color: #383838;
+}
+#burger h1{
+	width: 830px;
+	color: white;
+	font-size: 32px;
+	background-color: #383838;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+#dogs h1{
+	width: 830px;
+	color: white;
+	font-size: 32px;
+	background-color: #383838;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+#dogs{
+	width: 830px;
+	background-color: #383838;
+	color: white;
+}
+#dmenu{
+	margin-left: 15px;
+}
+#dmenu li{
+	padding: 5px;
+}
+#sandwich h1{
+	width: 830px;
+	color: white;
+	font-size: 32px;
+	background-color: #383838;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+#sandwich{
+	width: 830px;
+	background-color: #383838;
+	color: white;
+}
+#smenu{
+	margin-left: 15px;
+}
+#smenu li{
+	padding: 5px;
+}
+#smenu li:last-child{
+		font-style: italic;
+	}
+#fries h1{
+	width: 815px;
+	color: white;
+	font-size: 32px;
+	background-color: #383838;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+#fries{
+	width: 830px;
+	background-color: #383838;
+	color: white;
+}
+#fmenu li{
+	padding: 5px;
+}
+#fmenu li:last-child{
+	font-style: italic;
+	letter-spacing: 2px;
+}
+#fmenu{
+
+	margin-left: 15px;
+}
+#toppings h1{
+	width: 815px;
+	color: white;
+	font-size: 32px;
+	background-color: #383838;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+#toppings{
+	width: 830px;
+	background-color: #383838;
+	color: white;
+}
+#toppings li{
+	width: 600px;
+	padding: 5px;
+}
+#toppings li:first-child{
+	margin-left: 15px;
+	letter-spacing: 2px;
+}
+#fmenu{
+	margin-left: 15px;
+}
+#foot{
+	background-image: url("Project2_footer.png");
+	color:white;
+	height: 163px;
+	background-color: #383838;
+}
+#foot p{
+	margin-left: 70px;
+	padding-top: 40px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	height: 134px;	
+}
+h1{
+	color: white;
+}
+#menus{
+	border-style: none solid none solid;
+	border-width: 5px;
+	border-color: #ffff00;
+	background-color: #383838;
+	margin-right: 44px;
+	margin-left: 35px;
+}
+#side{
+	background-color: #cf4747;
+}
