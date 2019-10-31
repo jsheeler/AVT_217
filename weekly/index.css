@@ -91,9 +91,9 @@ body {
 }
 
 p, h1, h2, h3, h4, dd, dt, dl{
-	font-family: gill sans;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	margin-top: 0px;
 	padding-top: 0px;
 	margin-left: 20px;
@@ -136,7 +136,7 @@ dt {
 
 dd {
 	font-size: 16px;
-	font-family: "myriad pro";
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	font-weight: normal;
 	margin-left: 40px;
 	margin-top: 1px;
@@ -144,7 +144,7 @@ dd {
 }
 
 h6 {
-	font-family: myriad pro;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	font-size: 12px;
 	font-weight: normal;
 	margin-left: 44px;
