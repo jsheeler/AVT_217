@@ -1,64 +1,40 @@
 @charset "UTF-8";
 /* CSS Document */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.acc {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
 }
 
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/*.active, .accordion:hover {
+  background-color: #BF1215;
+}*/
+
+/* Style the accordion panel. Note: hidden by default */
 
 
-
-
-#wrapper{
+body{
+	
 	width:1024px;
 }
+#wrapper{
+	background-color: #f8ee81;
+}
 header{
-	background-image: url("Project2.png");
+	background-image: url("img/Project2.png");
 	height: 120px;
+}
+#title h1{
+	padding-top: 30px;
+	margin-left: 330px;
+	font-size: 54px;
+	color: black;
 }
 nav{
 	background-color: #383838;
@@ -70,7 +46,7 @@ nav{
 .navi li{
 	list-style-type: none;
 	margin-left: 100px;
-	margin-top: 13px;
+	margin-top: 0px;
     padding: 0;
 	display: inline;
 	float:left;
@@ -78,151 +54,295 @@ nav{
 	font-size: 24px;
 }
 .navi li:first-child{
-	margin-left: 120px;
+	margin-left: 50px;
 }
-body{
+
+
+
+/*Burger Accordian*/
+
+#burgers{
+	margin-top: 50px;
+	margin-left: 100px;
+	height: 570px;
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+img{
+	width: 900px;
+	height: 570px;
+}
+.accordian{
+	float:left;
+	position: relative;
+	
+}
+		
+.overlay{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 800px;
+	height:100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(120,110,110,.50)
+}
+		
+.accordian:hover .overlay{
+	opacity: 1;
+}
+
+
+.image {
+			display:block;
+			width:800px;
+		}
+.text{
+	margin-top: 200px;
+	margin-left: 240px;
+	padding: 60px;
+	font-size: 64px;
+	color:white;
+}
+
+/*Hotdog Accordian*/
+#dogs{
+	margin-top: 50px;
+	margin-left: 100px;
+	height:570px;
+}
+.panel2 {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+	position: relative;
+
+}
+.accordian2{
+	float:left;
+	position: relative;
+	
+}
+.accordian2 img{
+
+}
+		
+.overlay2{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 800px;
+	height:100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(120,110,110,.50)
+}
+		
+.accordian2:hover .overlay{
+	opacity: 1;
+}
+
+
+.image2 {
+			display:block;
+			width:800px;
+		}
+.text2{
+	margin-top: 200px;
+	margin-left: 230px;
+	padding: 60px;
+	font-size: 64px;
+	color:white;
+}
+
+
+#sandwich{
+	margin-top: 50px;
+	margin-left: 100px;
+	height:570px;
+}
+.panel3 {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+	position: relative;
+
+}
+.accordian3{
+	float:left;
+	position: relative;
+	
+}
+.accordian3 img{
+
+}
+		
+.overlay3{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 800px;
+	height:100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(120,110,110,.50)
+}
+		
+.accordian3:hover .overlay{
+	opacity: 1;
+}
+.image3 {
+			display:block;
+			width:800px;
+		}
+.text3{
+	margin-top: 200px;
+	margin-left: 200px;
+	padding: 60px;
+	font-size: 64px;
+	color:white;
+}
+
+
+#fries{
+	margin-top: 50px;
+	margin-left: 100px;
+	height:570px;
+}
+.panel4 {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+	position: relative;
+
+}
+.accordian4{
+	float:left;
+	position: relative;
+	
+}
+.accordian4 img{
+
+}
+		
+.overlay4{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 800px;
+	height:100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(120,110,110,.50)
+}
+		
+.accordian4:hover .overlay{
+	opacity: 1;
+}
+.image4 {
+			display:block;
+			width:800px;
+		}
+.text4{
+	margin-top: 200px;
+	margin-left: 270px;
+	padding: 60px;
+	font-size: 64px;
+	color:white;
+}
+
+
+#toppings{
+	margin-top: 50px;
+	margin-left: 100px;
+	height:570px;
+	margin-bottom: 20px;
+}
+.panel5 {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+position: relative;
+
+}
+.accordian5{
+	float:left;
+	position: relative;
+	
+}
+.accordian5 img{
+
+}
+		
+.overlay5{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 800px;
+	height:100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(120,110,110,.50)
+}
+		
+.accordian5:hover .overlay{
+	opacity: 1;
+}
+.image5 {
+			display:block;
+			width:800px;
+		}
+.text5{
+	margin-top: 200px;
+	margin-left: 210px;
+	padding: 60px;
+	font-size: 64px;
+	color:white;
+}
+
+
+
+
+#dogs #ac2 .accordian2 #foot{
 	width: 1024px;
 }
-#title h1{
-	padding-top: 30px;
-	margin-left: 330px;
-	font-size: 54px;
-	color: black;
-}
-#bmenu{
-	width: 815px;
-	background-color: #383838;
-	color: white;
-	margin-left: 15px;
-}
-#bmenu li{
-	padding: 5px;
-}
-#burger{
-	width: 830px;
-	background-color: #383838;
-}
-#burger h1{
-	width: 830px;
-	color: white;
-	font-size: 32px;
-	background-color: #383838;
-	margin-bottom: 5px;
-	margin-left: 5px;
-}
-#dogs h1{
-	width: 830px;
-	color: white;
-	font-size: 32px;
-	background-color: #383838;
-	margin-bottom: 5px;
-	margin-left: 5px;
-}
-#dogs{
-	width: 830px;
-	background-color: #383838;
-	color: white;
-}
-#dmenu{
-	margin-left: 15px;
-}
-#dmenu li{
-	padding: 5px;
-}
-#sandwich h1{
-	width: 830px;
-	color: white;
-	font-size: 32px;
-	background-color: #383838;
-	margin-bottom: 5px;
-	margin-left: 5px;
-}
-#sandwich{
-	width: 830px;
-	background-color: #383838;
-	color: white;
-}
-#smenu{
-	margin-left: 15px;
-}
-#smenu li{
-	padding: 5px;
-}
-#smenu li:last-child{
-		font-style: italic;
-	}
-#fries h1{
-	width: 815px;
-	color: white;
-	font-size: 32px;
-	background-color: #383838;
-	margin-bottom: 5px;
-	margin-left: 5px;
-}
-#fries{
-	width: 830px;
-	background-color: #383838;
-	color: white;
-}
-#fmenu li{
-	padding: 5px;
-}
-#fmenu li:last-child{
-	font-style: italic;
-	letter-spacing: 2px;
-}
-#fmenu{
-
-	margin-left: 15px;
-}
-#toppings h1{
-	width: 815px;
-	color: white;
-	font-size: 32px;
-	background-color: #383838;
-	margin-bottom: 5px;
-	margin-left: 5px;
-}
-#toppings{
-	width: 830px;
-	background-color: #383838;
-	color: white;
-}
-#toppings li{
-	width: 600px;
-	padding: 5px;
-}
-#toppings li:first-child{
-	margin-left: 15px;
-	letter-spacing: 2px;
-}
-#fmenu{
-	margin-left: 15px;
-}
 #foot{
-	background-image: url("Project2_footer.png");
+	border-style: solid none solid none;
+	border-width: 5px;
+	border-color: #fffefe;
+	padding: 0px;
 	color:white;
-	height: 163px;
+	height: 138px;
 	background-color: #383838;
+
 }
 #foot p{
-	margin-left: 70px;
-	padding-top: 40px;
+	margin-left: 100px;
+	padding-top: 5px;
 	font-size: 25px;
 	letter-spacing: 5px;
 	height: 134px;	
 }
 h1{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	color: white;
-}
-#menus{
-	border-style: none solid none solid;
-	border-width: 5px;
-	border-color: #ffff00;
-	background-color: #383838;
-	margin-right: 44px;
-	margin-left: 35px;
-}
-#side{
-	background-color: #cf4747;
 }
