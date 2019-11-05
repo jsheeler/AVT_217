@@ -59,41 +59,39 @@ body {
 }
 #wrapper {
 	background-color: #D6FDEA;
-	width: 900px;
+	width: 1200px;
 	float: left;
 	margin: 20px 0 0 50px;
 	line-height: 1.5em;
 }
 
-#weekly {
+.weekly {
 	width: 500px;
 	float: left;
-	margin-right: 20px;
+	margin-right: 120px;
 	margin-left: 5px;
 	margin-bottom: 5px;
-	-moz-column-count: 2;
-  	-moz-column-gap: 1em;
-  	-webkit-column-count: 2;
-  	-webkit-column-gap: 1em;
-  	column-count: 2;
+	column-count: 2;
   	column-gap: 1em;
+	display: inline;
 
 }
-#weekly h2{
+.weekly h2{
 	color: black;
 }
 
-#projects {
+.project {
 	width: 320px;
-	float: left;
-	margin-left:40px;
+	float: right;
+	margin-left:90px;
 	margin-top:-38px;
+	display: inline;
 }
 
 p, h1, h2, h3, h4, dd, dt, dl{
+	font-family: gill sans;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	margin-top: 0px;
 	padding-top: 0px;
 	margin-left: 20px;
@@ -136,7 +134,7 @@ dt {
 
 dd {
 	font-size: 16px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-family: "myriad pro";
 	font-weight: normal;
 	margin-left: 40px;
 	margin-top: 1px;
@@ -144,7 +142,7 @@ dd {
 }
 
 h6 {
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-family: myriad pro;
 	font-size: 12px;
 	font-weight: normal;
 	margin-left: 44px;
