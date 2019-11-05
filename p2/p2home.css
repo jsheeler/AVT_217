@@ -27,14 +27,27 @@ body{
 	background-color: #f8ee81;
 }
 header{
-	background-image: url("img/Project2.png");
 	height: 120px;
+	background-color: #313741;
+}
+#title{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 16px;
+	border-style: solid solid solid solid;
+	border-width: 5px;
+	border-color: #ffff00;
+	border-radius: 15px;
+	height: 89px;
+	width: 982px;
+	background-color: #e13840;
 }
 #title h1{
-	padding-top: 30px;
-	margin-left: 330px;
+	margin-top: 10px;
+	margin-left: 280px;
 	font-size: 54px;
 	color: black;
+	font-weight: bolder;
 }
 nav{
 	background-color: #383838;
@@ -66,11 +79,26 @@ nav{
 	margin-left: 100px;
 	height: 570px;
 }
+#click{
+	margin-left: 260px;
+	display:inline;
+	
+}
+#click:hover{
+	color: #3AD0FD;
+	text-decoration: underline;
+	font-size: 20px;
+}
 .panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
+	padding: 0 18px;
+	background-color: white;
+	display: block;
+	width: 758px;
+	height: 50px;
+	overflow: hidden;
+	border-style: solid solid solid solid;
+	border-color: #FF0004;
+	font-weight: bolder;
 }
 img{
 	width: 900px;
@@ -79,7 +107,6 @@ img{
 .accordian{
 	float:left;
 	position: relative;
-	
 }
 		
 .overlay{
@@ -114,16 +141,30 @@ img{
 
 /*Hotdog Accordian*/
 #dogs{
-	margin-top: 50px;
+	margin-top: 80px;
 	margin-left: 100px;
 	height:570px;
+}
+#click2{
+	margin-left: 260px;
+	display:inline;
+	
+}
+#click2:hover{
+	color: #3AD0FD;
+	text-decoration: underline;
+	font-size: 20px;
 }
 .panel2 {
   padding: 0 18px;
   background-color: white;
-  display: none;
+	display: block;
+	width: 764px;
+	height: 50px;
   overflow: hidden;
-	position: relative;
+	border-style: solid solid solid solid;
+	border-color: #FF0004;
+	font-weight: bolder;
 
 }
 .accordian2{
@@ -165,18 +206,32 @@ img{
 	color:white;
 }
 
-
+/*Sandwich accordian*/
 #sandwich{
-	margin-top: 50px;
+	margin-top: 80px;
 	margin-left: 100px;
 	height:570px;
 }
+#click3{
+	margin-left: 260px;
+	display:inline;
+	
+}
+#click3:hover{
+	color: #3AD0FD;
+	text-decoration: underline;
+	font-size: 20px;
+}
 .panel3 {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-	position: relative;
+	padding: 0 18px;
+	background-color: white;
+	overflow: hidden;
+	display: block;
+	width: 764px;
+	height: 50px;
+	border-style: solid solid solid solid;
+	border-color: #FF0004;
+	font-weight: bolder;
 
 }
 .accordian3{
@@ -216,18 +271,32 @@ img{
 	color:white;
 }
 
-
+/*Fries accordian*/
 #fries{
-	margin-top: 50px;
+	margin-top: 80px;
 	margin-left: 100px;
 	height:570px;
 }
+#click4{
+	margin-left: 260px;
+	display:inline;
+	
+}
+#click4:hover{
+	color: #3AD0FD;
+	text-decoration: underline;
+	font-size: 20px;
+}
 .panel4 {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-	position: relative;
+	padding: 0 18px;
+	background-color: white;
+	overflow: hidden;
+	display: block;
+	width: 764px;
+	height: 50px;
+	border-style: solid solid solid solid;
+	border-color: #FF0004;
+	font-weight: bolder;
 
 }
 .accordian4{
@@ -256,8 +325,8 @@ img{
 	opacity: 1;
 }
 .image4 {
-			display:block;
-			width:800px;
+		display:block;
+		width:800px;
 		}
 .text4{
 	margin-top: 200px;
@@ -267,20 +336,33 @@ img{
 	color:white;
 }
 
-
+/*Toppings accordian*/
 #toppings{
-	margin-top: 50px;
+	margin-top: 80px;
 	margin-left: 100px;
 	height:570px;
 	margin-bottom: 20px;
 }
+#click5{
+	margin-left: 260px;
+	display:inline;
+	
+}
+#click5:hover{
+	color: #3AD0FD;
+	text-decoration: underline;
+	font-size: 20px;
+}
 .panel5 {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-position: relative;
-
+	padding: 0 18px;
+	background-color: white;
+	overflow: hidden;
+	display: block;
+	width: 764px;
+	height: 50px;
+	border-style: solid solid solid solid;
+	border-color: #FF0004;
+	font-weight: bolder;
 }
 .accordian5{
 	float:left;
@@ -326,6 +408,7 @@ position: relative;
 	width: 1024px;
 }
 #foot{
+	margin-top: 70px;
 	border-style: solid none solid none;
 	border-width: 5px;
 	border-color: #fffefe;
@@ -343,5 +426,6 @@ position: relative;
 	height: 134px;	
 }
 h1{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	color: white;
 }

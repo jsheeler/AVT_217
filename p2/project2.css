@@ -57,8 +57,20 @@ table {
 	width:1024px;
 }
 header{
-	background-image: url("Project2.png");
+	background-color: #313741;
 	height: 120px;
+}
+header #titlecolor{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 16px;
+	border-style: solid solid solid solid;
+	border-width: 5px;
+	border-color: #ffff00;
+	border-radius: 15px;
+	height: 89px;
+	width: 982px;
+	background-color: #e13840;
 }
 nav{
 	background-color: #383838;
@@ -83,14 +95,15 @@ nav{
 body{
 	width: 1024px;
 }
-#title h1{
-	padding-top: 30px;
+#titlecolor h1{
+	padding-top: 18px;
 	margin-left: 330px;
 	font-size: 54px;
 	color: black;
+	font-weight: bolder;
 }
 #bmenu{
-	width: 815px;
+	width: 920px;
 	background-color: #383838;
 	color: white;
 	margin-left: 15px;
@@ -99,7 +112,7 @@ body{
 	padding: 5px;
 }
 #burger{
-	width: 830px;
+	width: 920px;
 	background-color: #383838;
 }
 #burger h1{
@@ -119,7 +132,7 @@ body{
 	margin-left: 5px;
 }
 #dogs{
-	width: 830px;
+	width: 920px;
 	background-color: #383838;
 	color: white;
 }
@@ -138,7 +151,7 @@ body{
 	margin-left: 5px;
 }
 #sandwich{
-	width: 830px;
+	width: 920px;
 	background-color: #383838;
 	color: white;
 }
@@ -160,7 +173,7 @@ body{
 	margin-left: 5px;
 }
 #fries{
-	width: 830px;
+	width: 920px;
 	background-color: #383838;
 	color: white;
 }
@@ -200,10 +213,16 @@ body{
 	margin-left: 15px;
 }
 #foot{
-	background-image: url("Project2_footer.png");
 	color:white;
 	height: 163px;
-	background-color: #383838;
+	background-color: #cf4747;
+}
+#footcolor{
+	border-style: solid none none none;
+	border-width: 5px;
+	border-color: #ffff00;
+	margin-left: 35px;
+	margin-right: 44px;
 }
 #foot p{
 	margin-left: 70px;
@@ -224,5 +243,5 @@ h1{
 	margin-left: 35px;
 }
 #side{
-	background-color: #cf4747;
+	background-color: #cf4747;	
 }
