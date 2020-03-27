@@ -219,6 +219,9 @@ table {
 		margin-top: 5px;
 		margin-bottom: 3px;
 	}
+	#youtube{
+		margin-left: 280px;
+	}
 	#gallery{
 		width: 100%;
 		height: auto;
